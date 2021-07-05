@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* custom scroll bar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #F7F7F7;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+#navbarSupportedContent{
+    font-size: 20px;
+    font-family: Louis George Café;
+    font-weight: bold;
+}
+.home{
+    display: flex;
+    background: url("img/bici1.png") no-repeat center;
+    height: 100vh;
+    color: #fff;
+    font-family: Louis George Café;
+    font-style: italic;
+    min-height: 500px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.home .max-width{
+    margin: auto 0 auto 20px;
+}
+.home .home-content{
+    width: 600px;
+}
+.home .home-content .text-1{
+    font-size: 50px;
+    padding-top: 350px; 
+    font-weight: 600;
+    margin-left: -3px;
+}
+.bicitipos{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#cards #titulo-tipos{
+    display: flex;
+    justify-content: center;
+}
+#card-img{
+    align-items: center;
+    border-radius: 500px;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    background: url("img/tipos.jpg") no-repeat;
+    background-size: cover;
+}
+#titulo-tipos{
+    font-size: 45px;
+    font-weight: 500;
+    margin: 0 auto;
+    color: #F5871F;
+    font-family: Beyond The Mountains;
+}
+#bicirutas{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+#footer{
+    color: #F5871F;
+    text-decoration: none;
+}
+#bicitips{
+    display: flex;
+    justify-content: center;
+}
