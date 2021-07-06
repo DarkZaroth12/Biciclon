@@ -89,3 +89,8 @@ html{
     display: flex;
     justify-content: center;
 }
+#tipos1{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 0;
+}
