@@ -47,10 +47,6 @@ html{
 .slide img{
     min-height: 100%;
 }
-#via{
-    background-image: url("img/via.png") ;
-}
-
 
 #bicirutas{
     display: flex;
