@@ -23,19 +23,59 @@ html{
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
+#loader{
+    height: 100vh;
+    background-color:#F5871F ;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+
+}
+.lds-dual-ring {
+  display: inline-block;
+  width: 80px;
+  height: 80px;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
 #navbarSupportedContent{
     font-size: 20px;
     font-family: 'Louis George Café';
     font-weight: bold;
 }
-#home{
-    display: flex;
-    height: 100vh;
-    margin: auto 0 auto 0;
-    min-height: 500px;
-    background-size: cover;
-    background-attachment: fixed;
+
+#gotopbtn{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    background-color:#F5871F ;
+    bottom: 40px;
+    right: 50px;
+    border-radius: 55px;
+
+    text-decoration: none;
+    text-align: center;
 }
+
 .bicitipos{
     padding-top: 30px;
     padding-bottom: 20px;
