@@ -107,3 +107,6 @@ html{
     justify-content: center;
     padding-bottom: 10px;
 }
+#footer a:hover i{
+    color: #fff;
+}
